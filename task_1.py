@@ -16,6 +16,7 @@ def process_request():
         return "\nQueue is empty\n"
 
 print("Hello, to interact with me, please input command number below:\n")
+
 while True:
     for el in menu:
         print(el)
